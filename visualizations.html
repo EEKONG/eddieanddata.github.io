@@ -1,0 +1,301 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Eddie's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="visualizations.html" class="logo">Welcome</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Projects</a></li>
+							<li class="active"><a href="visualizations.html">Visualizations</a></li>
+							<li><a href="cloudlabs.html">Cloud Labs</a></li>
+							<li><a href="skills.html">Skills</a></li>
+							<li><a href="certifications.html">Certifications</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+<article class="post featured">
+  <header class="major">
+    <h2><a href="#">U.S. Drug Overdose Insights Pipeline (2012–2024)<br /></a></h2>
+    <p> This project began with a question, <b>how have drug-related deaths shaped the U.S. over the past decade?</b>
+Using <b>Python</b>, I cleaned and transformed thousands of public health records, uncovering patterns hidden within raw data. The processed datasets were modeled and aggregated in <b>Snowflake</b>, where I built summary views capturing yearly, demographic, and substance-level trends.</p> 
+
+<p>From there, I brought the story to life in <b>Tableau</b> by designing an interactive dashboard that visualizes the sharp rise of <b>fentanyl-related deaths</b> between 2014 and 2021, the slight decline after 2022, and the disproportionate impact on <b>adults (7,876 deaths)</b> and <b>young adults (3,341 deaths)</b>.</p> 
+
+<p>The dashboard is <b>embedded directly into this portfolio</b>, inviting you to <b>interact with the visualizations below</b>. You can explore trends by <b>age group filters:
+
+Youth (0–17 years),
+
+Young Adults (18–35 years),
+
+Adults (36–55 years) and
+
+Older Adults (56+ years)</b>.
+
+Each filter reveals how the crisis affects different generations across time and geography.
+Every design choice, from red-accented visuals to a clear narrative flow, balances empathy with insight.
+This project reflects my passion for transforming <b>data into stories that drive awareness and action</b> in public health.<br /></p>
+  </header>
+  <!-- START: Centered, responsive Tableau Public embed -->
+  <div class="tableau-wrapper">
+    <div class="tableauPlaceholder" id="viz1761195157750" style="position: relative; width:100%;">
+      <noscript>
+        <a href="#">
+          <img alt="United States Drug-Related Deaths by Age Group: Trends, Places, and Substances" src="https://public.tableau.com/static/images/U_/U_S_Drug-RelatedDeathsDashboardv2/Story1/1_rss.png" style="border: none" />
+        </a>
+      </noscript>
+      <object class="tableauViz" style="display:none;">
+        <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+        <param name="embed_code_version" value="3" />
+        <param name="site_root" value="" />
+        <param name="name" value="U_S_Drug-RelatedDeathsDashboardv2/Story1" />
+        <param name="tabs" value="no" />
+        <param name="toolbar" value="yes" />
+        <param name="static_image" value="https://public.tableau.com/static/images/U_/U_S_Drug-RelatedDeathsDashboardv2/Story1/1.png" />
+        <param name="animate_transition" value="yes" />
+        <param name="display_static_image" value="yes" />
+        <param name="display_spinner" value="yes" />
+        <param name="display_overlay" value="yes" />
+        <param name="display_count" value="yes" />
+        <param name="language" value="en-US" />
+        <param name="filter" value="publish=yes" />
+      </object>
+    </div>
+  </div>
+  <!-- END: Tableau embed -->
+  <ul class="actions special">
+    <li><a href="https://github.com/EEKONG/us-overdose-insights-python-snowflake-tableau-pipeline" class="button large">Click to view technical stuff</a></li>
+  </ul>
+</article>
+
+<script type="text/javascript">
+  (function() {
+    // Responsive sizing and single script load
+    var id = 'viz1761195157750';
+    var divElement = document.getElementById(id);
+    if (!divElement) return;
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    if (!vizElement) return;
+
+    function sizeViz() {
+      var w = divElement.clientWidth || divElement.offsetWidth;
+      vizElement.style.width = '100%';
+      vizElement.style.height = Math.round(w * 0.75) + 'px';
+    }
+
+    sizeViz();
+    window.addEventListener('resize', debounce(sizeViz, 120));
+
+    if (!window._tableauScriptLoaded) {
+      var s = document.createElement('script');
+      s.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      s.onload = function() { window._tableauScriptLoaded = true; };
+      document.head.appendChild(s);
+    }
+
+    function debounce(fn, ms) {
+      var t;
+      return function() { clearTimeout(t); t = setTimeout(fn, ms); };
+    }
+  })();
+</script>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2><a href="https://github.com/EEKONG/Data_Cleaning_Project">Python and Seaborn:<br />
+										Weekly Sales Seasonality Patterns</a></h2>
+									</header>
+									<a href="https://github.com/EEKONG/Data_Cleaning_Project" class="image fit"><img src="images/lineplot_seasonality_pattern.png" alt="Seasonality Pattern" /></a>
+									<p style="font-size:18px">
+                                        This python visualization highlights the seasonal trends in walmart weekly sales across the years <strong>2011</strong>, <strong>2012</strong>, and <strong>2013</strong>. The y-axis represents the log-transformed weekly sales (Weekly_Sales_Log10) to normalize scale and reduce skewness, while the x-axis represents the months of the year. Sales show clear seasonality, with sharp rises early in the year and strong holiday-driven spikes in November–December. Year-end growth was strongest in 2010–2011, while 2012 showed weaker momentum.</p>
+                                        <h4 style="font-size:18px; margin-top:10px;">Key Takeaway:</h4>
+                                        <ul style="font-size:18px; line-height:1.8 margin-left:18px; text-align:left; display:block;">
+                                            <li>The Walmart planning and inventory strategies team should prioritize <strong>early-year and holiday seasons</strong>, as they consistently drive the highest performance across years.</li>
+                                          </ul>
+                                        <ul class="actions special">
+										<li><a href="https://github.com/EEKONG/Python_Seaborn_Project/blob/main/6.%20Line%20Chart%20-%20Weekly%20Sales%20Seasonality%20Pattern" class="button">View Code</a></li>
+									</ul>
+								</article>
+							<article>
+									<header>
+										<h2><a href="#">Python and Seaborn:<br />
+										Actual vs Predicted Weekly Sales</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/predictedSales.png" alt="" /></a>
+									<p>This visualization compares actual weekly sales with model predictions over time. The blue line represents real sales performance, while the orange line shows forecasted values</p>
+									<h4 style="font-size:18px; margin-top:10px;">Key Takeaway:</h4>
+                                        <ul style="font-size:18px; line-height:1.8 margin-left:18px; text-align:left; display:block;">
+                                            <li>By leveraging predictive analytics, the business can anticipate demand shifts, reduce stockouts, and optimize resource allocation, leading to more data-driven decision-making</li>
+                                          </ul>
+									<ul class="actions special">
+										<li><a href="https://github.com/EEKONG/Python_Seaborn_Project/blob/main/18.%20Line%20Plot%20-%20Actual%20Weekly%20Sales%20vs%20Predicted%20Weekly%20Sales" class="button">View Code</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://github.com/EEKONG/Python_Seaborn_Project/blob/main/9.%20Count%20Plot%20-%20Best%20Performing%20Department">Python and Seaborn:<br />
+										Best Performing Departments</a></h2>
+									</header>
+									<a href="https://github.com/EEKONG/Python_Seaborn_Project/blob/main/9.%20Count%20Plot%20-%20Best%20Performing%20Department" class="image fit"><img src="images/countplot_bestDepartment.png" alt="Best Department" /></a>
+									<p>The bar chart highlights the top departments based on sales count. Department 92 leads significantly with 19 sales, followed by 38 with 16 sales. Other notable performers include 72 (4 sales) and 95 (3 sales), while 2 and 94 show relatively lower performance</p>
+									<h4 style="font-size:18px; margin-top:10px;">Key Takeaway:</h4>
+                                        <ul style="font-size:18px; line-height:1.8 margin-left:18px; text-align:left; display:block;">
+                                            <li>Sales performance is concentrated in a few standout departments, with <strong>92 and 38</strong> driving the majority of results.</li>
+                                          </ul>
+                                    <ul class="actions special">
+										<li><a href="https://github.com/EEKONG/Python_Seaborn_Project/blob/main/9.%20Count%20Plot%20-%20Best%20Performing%20Department" class="button">View Code</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 14, 2017</span>
+										<h2><a href="#">Tempus sed<br />
+										nulla imperdiet</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 14, 2017</span>
+										<h2><a href="#">Tempus sed<br />
+										nulla imperdiet</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 7, 2017</span>
+										<h2><a href="#">Augue lorem<br />
+										primis vestibulum</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+							</section>
+
+						<!-- Footer -->
+							<footer>
+								<div class="pagination">
+									<!--<a href="#" class="previous">Prev</a>-->
+									<a href="#" class="page active">1</a>
+									<a href="visualizations_page2.html" class="page">2</a>
+									<a href="#" class="page">3</a>
+									<span class="extra">&hellip;</span>
+									<a href="#" class="page">8</a>
+									<a href="#" class="page">9</a>
+									<a href="#" class="page">10</a>
+									<a href="#" class="next">Next</a>
+								</div>
+							</footer>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>1234 Somewhere Road #87257<br />
+								Nashville, TN 00000-0000</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(000) 000-0000</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">info@untitled.tld</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
