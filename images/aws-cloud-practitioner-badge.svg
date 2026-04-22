@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">AWS Certified Cloud Practitioner badge</title>
+  <desc id="desc">Custom portfolio badge for AWS Certified Cloud Practitioner credential</desc>
+  <rect width="640" height="420" rx="18" fill="#0d0f0e"/>
+  <rect x="18" y="18" width="604" height="384" rx="14" fill="#151816" stroke="#2f3934" stroke-width="2"/>
+  <path d="M52 96h536" stroke="#2f3934" stroke-width="2"/>
+  <circle cx="58" cy="56" r="10" fill="#ff6b5f"/>
+  <circle cx="88" cy="56" r="10" fill="#e8bb4d"/>
+  <circle cx="118" cy="56" r="10" fill="#39d6ae"/>
+  <text x="154" y="62" fill="#a6b2ab" font-family="Consolas, monospace" font-size="22" font-weight="700">credential.aws</text>
+  <text x="54" y="148" fill="#39d6ae" font-family="Consolas, monospace" font-size="24" font-weight="700">certification:</text>
+  <text x="54" y="205" fill="#f4f7f5" font-family="Arial, sans-serif" font-size="45" font-weight="800">AWS Certified</text>
+  <text x="54" y="260" fill="#f4f7f5" font-family="Arial, sans-serif" font-size="45" font-weight="800">Cloud Practitioner</text>
+  <text x="54" y="318" fill="#a6b2ab" font-family="Consolas, monospace" font-size="22">cloud fundamentals • security • cost • architecture</text>
+  <path d="M454 148l40 23 40-23 40 23v92c0 54-36 91-80 108-44-17-80-54-80-108v-92l40-23z" fill="#101311" stroke="#39d6ae" stroke-width="4"/>
+  <path d="M452 257c28 18 67 18 95 0" fill="none" stroke="#e8bb4d" stroke-width="8" stroke-linecap="round"/>
+  <path d="M470 222h59" stroke="#ff6b5f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M470 194h59" stroke="#39d6ae" stroke-width="8" stroke-linecap="round"/>
+</svg>
