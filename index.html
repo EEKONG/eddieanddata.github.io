@@ -4,6 +4,7 @@
 		<title>Eddie Ekong | Data Engineering & Technical Support Engineering</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#0d0f0e" />
 		<meta name="description" content="Portfolio for Eddie Ekong spanning data engineering and technical support engineering, featuring Python, SQL, Snowflake, AWS, ETL pipelines, observability, and production troubleshooting." />
 		<meta name="author" content="Eddie Ekong" />
 		<meta property="og:title" content="Eddie Ekong | Data Engineering & Technical Support Engineering" />
@@ -17,7 +18,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link rel="preconnect" href="https://public.tableau.com" />
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:400,600,700,800,900|JetBrains+Mono:400,600,700|Source+Sans+Pro:900" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;600;700&family=Source+Sans+3:wght@900&display=swap" />
 		<link rel="stylesheet" href="assets/css/portfolio.css" />
 	</head>
 	<body>
@@ -28,12 +29,12 @@
 				<a class="brand" href="index.html">Eddie<span>andData</span></a>
 				<nav aria-label="Primary navigation">
 					<ul class="site-nav">
-						<li><a href="#projects">Projects</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#skills">Skills</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#technical-support-engineering">Technical Support Engineering</a></li>
+						<li><a href="#data-engineering">Data Engineering</a></li>
 						<li><a href="certifications.html">Certifications</a></li>
 						<li><a href="cloudlabs.html">Cloud Labs</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
 				<ul class="social-links" aria-label="Social links">
@@ -69,12 +70,29 @@
 			</div>
 		</header>
 
-		<section class="hero" aria-label="Portfolio introduction">
+		<section class="hero" id="home" aria-label="Portfolio introduction">
 			<div class="hero-content">
 				<div>
-					<span class="eyebrow">Data Engineering + Technical Support Engineering</span>
-					<h1>Building reliable data systems and solving production problems at the edges.</h1>
-					<p>I design ETL pipelines, troubleshoot cloud and SaaS issues, improve observability, and turn operational and analytical data into systems people can trust.</p>
+					<h1>I solve production problems as a support engineer and build data systems with the same reliability mindset.</h1>
+					<p class="hero-lede">My background is rooted in <strong>technical support engineering</strong>: troubleshooting Linux, SaaS, cloud, API, and customer-facing issues under pressure. That foundation now shapes how I approach <strong>data engineering</strong>, from ETL pipelines and SQL modeling to Snowflake, AWS, and analytics workflows built for clarity and trust.</p>
+					<p class="hero-dynamic-line">I care about systems that are <span class="hero-rotator" data-rotate='["observable","supportable","analytics-ready","stable under pressure"]'>observable</span>.</p>
+					<div class="home-summary-grid" aria-label="Homepage summary">
+						<article class="home-summary-card">
+							<span class="home-summary-label">Support Foundation</span>
+							<h3>Incident response, root cause isolation, and customer-facing troubleshooting.</h3>
+							<p>Years of support thinking taught me to calm noisy situations, narrow failure domains, and communicate clearly while systems are still moving.</p>
+						</article>
+						<article class="home-summary-card">
+							<span class="home-summary-label">Data Engineering Path</span>
+							<h3>ETL pipelines, SQL transformation, Snowflake, AWS, and dashboard delivery.</h3>
+							<p>I’m applying that same discipline to data workflows that clean inputs, model useful outputs, and surface signals teams can actually act on.</p>
+						</article>
+						<article class="home-summary-card home-summary-card-accent">
+							<span class="home-summary-label">What Connects Both</span>
+							<h3>Reliable systems, clear decisions, and practical execution.</h3>
+							<p>The throughline in my work is simple: understand what broke, understand what matters, and build something more dependable on the other side.</p>
+						</article>
+					</div>
 					<ul class="hero-signals" aria-label="Core focus areas">
 						<li>ETL pipelines</li>
 						<li>Incident troubleshooting</li>
@@ -82,8 +100,9 @@
 						<li>Support-driven reliability</li>
 					</ul>
 					<ul class="hero-actions">
-						<li><a class="button light" href="#projects">Explore Projects</a></li>
-						<li><a class="button secondary" href="#about">See Experience</a></li>
+						<li><a class="button light" href="#technical-support-engineering">Explore Support Engineering</a></li>
+						<li><a class="button secondary" href="#data-engineering">Explore Data Engineering</a></li>
+						<li><a class="button secondary" href="#technical-support-engineering">See Experience</a></li>
 						<li><a class="button secondary" href="SupportEngineer.pdf" target="_blank" rel="noopener noreferrer">Support CV</a></li>
 						<li><a class="button secondary" href="JDE.pdf" target="_blank" rel="noopener noreferrer">Data CV</a></li>
 					</ul>
@@ -128,17 +147,147 @@ ingest.events(portfolio)</code></pre>
 			</section>
 
 		<main id="main">
-			<section class="section compact" id="projects">
+			<section class="section reveal-on-scroll" id="technical-support-engineering">
 				<div class="section-header">
 					<div>
-						<span class="section-kicker">Featured Work</span>
-						<h2>Projects that connect pipelines, monitoring, and decision support.</h2>
+						<span class="section-kicker">Technical Support Engineering</span>
+						<h2>Technical support engineering skills focused on production reliability.</h2>
 					</div>
-					<p>These projects show how I move between data engineering, cloud operations, and support-minded execution to make systems more useful and more reliable.</p>
+					<p>This section centers the support engineering side of my experience: incident response, systems troubleshooting, observability, customer communication, and the tooling I use to stabilize environments quickly.</p>
 				</div>
 
-				<div class="featured ai-feature">
+				<div class="ops-grid">
+					<article class="ops-card">
+						<h3>Production Troubleshooting</h3>
+						<p>Working through Linux, network, cloud, API, and application issues has trained me to narrow failure domains quickly and verify fixes methodically.</p>
+					</article>
+					<article class="ops-card">
+						<h3>Observability Mindset</h3>
+						<p>I look for the signals behind incidents: logs, integration failures, stale data, auth issues, unexpected drops, and customer-facing symptoms.</p>
+					</article>
+					<article class="ops-card">
+						<h3>Customer and Team Communication</h3>
+						<p>Support work sharpened how I explain technical problems, document next steps, and keep both internal teams and external stakeholders aligned.</p>
+					</article>
+				</div>
+
+				<div class="skills-layout skills-layout-wide">
+					<div class="skills-panel">
+						<h3>Core Support Skills</h3>
+						<p>Hands-on support capabilities for triaging issues, isolating root causes, and driving clear resolution paths.</p>
+						<ul class="skill-list">
+							<li>Incident Triage</li>
+							<li>Root Cause Analysis</li>
+							<li>Escalation Management</li>
+							<li>Technical Documentation</li>
+							<li>Customer-Facing Troubleshooting</li>
+						</ul>
+					</div>
+					<div class="skills-panel">
+						<h3>Systems & Networking</h3>
+						<p>Foundational systems knowledge used to investigate service behavior across applications and infrastructure.</p>
+						<ul class="skill-list">
+							<li>Linux</li>
+							<li>TCP/IP</li>
+							<li>DNS</li>
+							<li>HTTP</li>
+							<li>SSH</li>
+							<li>System Logs</li>
+						</ul>
+					</div>
+					<div class="skills-panel">
+						<h3>Cloud & Platform Support</h3>
+						<p>Platform awareness across cloud services, SaaS tools, and integrations that affect uptime and user experience.</p>
+						<ul class="skill-list">
+							<li>AWS</li>
+							<li>Snowflake</li>
+							<li>API Troubleshooting</li>
+							<li>CI/CD</li>
+							<li>SQL Workbench</li>
+						</ul>
+					</div>
+					<div class="skills-panel">
+						<h3>Support Tooling</h3>
+						<p>Tools I use to manage tickets, collaborate with teams, and keep issue resolution organized.</p>
+						<ul class="skill-list">
+							<li>Zendesk</li>
+							<li>Jira</li>
+							<li>HubSpot</li>
+							<li>Salesforce</li>
+							<li>Slack</li>
+							<li>GitHub</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section class="section compact" id="data-engineering">
+				<div class="section-header">
+					<div>
+						<span class="section-kicker">Data Engineering</span>
+						<h2>Data engineering projects across pipelines, warehousing, and decision support.</h2>
+					</div>
+					<p>These projects highlight the data engineering side of my work: building ingestion and transformation workflows, modeling analytics-ready datasets, and surfacing insights through dashboards and reporting layers.</p>
+				</div>
+
+				<div class="project-link-panel reveal-on-scroll">
+					<span class="project-link-label">Project Directory</span>
+					<ul class="project-link-list" aria-label="Data engineering project links">
+						<li><a href="#project-ai-customer-analytics">AI Data Pipeline for Customer Analytics</a></li>
+						<li><a href="#project-overdose-insights">U.S. Drug Overdose Insights Pipeline</a></li>
+						<li><a href="#project-drug-shortages">U.S. Drug Shortages Dashboard</a></li>
+						<li><a href="#project-global-layoffs">Global Layoff Insights Pipeline</a></li>
+					</ul>
+				</div>
+
+				<div class="story-shell reveal-on-scroll">
+					<div class="story-intro">
+						<span class="story-kicker">Pipeline Story</span>
+						<h3>From raw signals to decisions people can act on.</h3>
+						<p>The thread across my data engineering work is consistent: land noisy data, shape it into reliable models, and surface it in a form that helps teams spot risk, understand trends, and move with confidence.</p>
+					</div>
+					<div class="story-rail" aria-label="Data engineering story">
+						<article class="story-step">
+							<span class="story-step-number">01</span>
+							<h4>Ingest the mess</h4>
+							<p>Start with fragmented customer, public health, or operational records and build a landing path that keeps raw context intact.</p>
+						</article>
+						<article class="story-step">
+							<span class="story-step-number">02</span>
+							<h4>Model the system</h4>
+							<p>Use Python, SQL, Snowflake, and cloud tooling to clean, transform, and structure the data into dependable tables.</p>
+						</article>
+						<article class="story-step">
+							<span class="story-step-number">03</span>
+							<h4>Surface the signal</h4>
+							<p>Turn the output into dashboards, sentiment views, and trend analysis that explain what changed and why it matters.</p>
+						</article>
+						<article class="story-step">
+							<span class="story-step-number">04</span>
+							<h4>Support the outcome</h4>
+							<p>Design with reliability in mind so the data stays useful under operational pressure, not just in a perfect demo.</p>
+						</article>
+					</div>
+				</div>
+
+				<div class="story-metrics reveal-on-scroll" aria-label="Data engineering impact signals">
+					<div class="story-metric">
+						<span class="story-metric-label">Focus</span>
+						<strong>Pipelines that explain customer, health, and workforce trends</strong>
+					</div>
+					<div class="story-metric">
+						<span class="story-metric-label">Pattern</span>
+						<strong>Ingest, transform, model, visualize, improve</strong>
+					</div>
+					<div class="story-metric">
+						<span class="story-metric-label">Mindset</span>
+						<strong>Reliable data products shaped by support engineering habits</strong>
+					</div>
+				</div>
+
+				<div class="featured ai-feature reveal-on-scroll" id="project-ai-customer-analytics">
 					<div class="feature-copy">
+						<span class="feature-stage">Chapter 1 · Customer Signals</span>
 						<h3>AI Data Pipeline for Customer Analytics</h3>
 						<p>Production-grade customer analytics pipeline processing 2M+ customer interactions with AWS, Snowflake, and dbt, using Cortex AI to analyze sentiment across 36,621 conversations and deliver structured, insight-ready data.</p>
 						<ul class="meta-list">
@@ -264,8 +413,9 @@ ingest.events(portfolio)</code></pre>
 					</div>
 				</div>
 
-				<div class="featured dashboard-feature dashboard-followup">
+				<div class="featured dashboard-feature dashboard-followup" id="project-overdose-insights">
 					<div class="feature-copy">
+						<span class="feature-stage">Chapter 2 · Public Health Trends</span>
 						<h3>U.S. Drug Overdose Insights Pipeline</h3>
 						<p>This project analyzes drug-related deaths across the United States from 2012 to 2024. I cleaned and prepared public health data in Python, modeled annual and demographic trends in Snowflake, and developed a Tableau story highlighting age-group patterns, geographic burden, and substance-level impact.</p>
 						<ul class="meta-list">
@@ -288,15 +438,16 @@ ingest.events(portfolio)</code></pre>
 							<iframe
 								title="United States drug-related deaths Tableau story"
 								loading="lazy"
-								src="https://public.tableau.com/views/U_S_Drug-RelatedDeathsDashboardv2/Story1?:showVizHome=no&:embed=true&:tabs=no&:toolbar=yes&:display_count=no&:origin=viz_share_link"
+								data-src="https://public.tableau.com/views/U_S_Drug-RelatedDeathsDashboardv2/Story1?:showVizHome=no&:embed=true&:tabs=no&:toolbar=yes&:display_count=no&:origin=viz_share_link"
 								allowfullscreen>
 							</iframe>
 						</div>
 					</div>
 				</div>
 
-				<div class="featured dashboard-feature dashboard-followup" id="visualizations">
+				<div class="featured dashboard-feature dashboard-followup reveal-on-scroll" id="project-drug-shortages">
 					<div class="feature-copy">
+						<span class="feature-stage">Chapter 3 · Operational Risk</span>
 						<h3>U.S. Drug Shortages Dashboard</h3>
 						<p>This dashboard examines why shortages occur, which therapeutic areas are most affected, how long shortages persist, and which root causes create the most operational workload. It reflects the same mindset I use in support engineering: identify failure patterns, quantify impact, and surface the next best response quickly.</p>
 						<ul class="meta-list">
@@ -318,113 +469,15 @@ ingest.events(portfolio)</code></pre>
 							<iframe
 								title="U.S. drug shortages Tableau dashboard"
 								loading="lazy"
-								src="https://public.tableau.com/views/USDrugshortages/Dashboard1?:showVizHome=no&:embed=true&:tabs=no&:toolbar=yes&:display_count=no&:origin=viz_share_link"
+								data-src="https://public.tableau.com/views/USDrugshortages/Dashboard1?:showVizHome=no&:embed=true&:tabs=no&:toolbar=yes&:display_count=no&:origin=viz_share_link"
 								allowfullscreen>
 							</iframe>
 						</div>
 					</div>
 				</div>
-			</section>
-
-			<section class="proof-band" aria-label="Portfolio focus areas">
-				<div class="proof-grid">
-					<div class="proof-item">
-						<strong>ETL</strong>
-						<span>cleaning, transforming, and loading reliable datasets</span>
-					</div>
-					<div class="proof-item">
-						<strong>Support</strong>
-						<span>triaging incidents, isolating root causes, and restoring confidence fast</span>
-					</div>
-					<div class="proof-item">
-						<strong>Cloud</strong>
-						<span>AWS labs, S3 workflows, Glue pipelines, Linux systems, and SaaS operations</span>
-					</div>
-					<div class="proof-item">
-						<strong>BI</strong>
-						<span>dashboards, reporting layers, and operational visibility for decisions</span>
-					</div>
-				</div>
-			</section>
-
-			<section class="section">
-				<div class="section-header">
-					<div>
-						<span class="section-kicker">Support Engineering</span>
-						<h2>Operational thinking that strengthens the data work.</h2>
-					</div>
-					<p>My support engineering background shapes how I build data systems: with clearer monitoring, stronger assumptions, faster diagnosis, and better communication under pressure.</p>
-				</div>
-
-				<div class="ops-grid">
-					<article class="ops-card">
-						<h3>Production Troubleshooting</h3>
-						<p>Working through Linux, network, cloud, API, and application issues has trained me to narrow failure domains quickly and verify fixes methodically.</p>
-					</article>
-					<article class="ops-card">
-						<h3>Observability Mindset</h3>
-						<p>I look for the signals behind incidents: logs, pipeline failures, integration gaps, stale data, unexpected drops, and customer-facing symptoms.</p>
-					</article>
-					<article class="ops-card">
-						<h3>Customer and Team Communication</h3>
-						<p>Support work sharpened how I explain technical problems, document next steps, and keep both internal teams and external stakeholders aligned.</p>
-					</article>
-				</div>
-			</section>
-
-			<section class="section" id="about">
-				<div class="section-header">
-					<div>
-						<span class="section-kicker">About</span>
-						<h2>Data engineering grounded in real support and operations experience.</h2>
-					</div>
-					<p>I connect the discipline of technical support with the craft of data engineering: diagnosing systems, improving reliability, and turning operational data into decisions.</p>
-				</div>
-
-				<div class="about-grid">
-					<div class="about-panel">
-						<h3>Hi, I'm Eddie Ekong.</h3>
-						<p>I'm a technical support engineer and early data engineer focused on reliable systems, clear problem-solving, and practical data work. My experience spans SaaS support, production troubleshooting, ETL pipelines, SQL-based data modeling, and cloud workflows.</p>
-						<p>I work with Python, SQL, Bash, Snowflake, AWS, dbt, Airflow, Tableau, Looker, Linux, GitHub, Zendesk, and Jira. I enjoy turning messy data and complex technical issues into cleaner processes, useful reporting, and dependable outcomes for teams and customers.</p>
-					</div>
-					<aside class="about-panel about-terminal" aria-label="About Eddie summary">
-						<div class="code-window-bar">
-							<span></span>
-							<span></span>
-							<span></span>
-							<strong>about_eddie.json</strong>
-						</div>
-						<pre><code>{
-  "role": "Tech Support Engineer + Early Data Engineer",
-  "education": "MEng, University of Ottawa",
-  "tools": ["Python", "SQL", "AWS", "Snowflake", "dbt"],
-  "experience": [
-    "Production support across SaaS and cloud",
-    "ETL pipelines and SQL data modeling",
-    "Linux, API, and network troubleshooting",
-    "Dashboards, reporting, and analytics"
-  ],
-  "operating_style": ["diagnose", "stabilize", "automate", "communicate"],
-  "certifications": {
-    "earned": "AWS Cloud Practitioner",
-    "next": ["Solutions Architect", "Data Engineer Associate"]
-  }
-}</code></pre>
-					</aside>
-				</div>
-			</section>
-
-			<section class="section">
-				<div class="section-header">
-					<div>
-						<span class="section-kicker">Selected Projects</span>
-						<h2>Work shaped by both analysis and reliability.</h2>
-					</div>
-					<p>Each project is built around a practical question: what changed, why it happened, what system behavior it reveals, and what action the data should support.</p>
-				</div>
-
-				<div class="featured dashboard-feature dashboard-followup layoff-feature">
+				<div class="featured dashboard-feature dashboard-followup layoff-feature reveal-on-scroll" id="project-global-layoffs">
 					<div class="feature-copy">
+						<span class="feature-stage">Chapter 4 · Cloud Pipelines</span>
 						<h3>Global Layoff Insights Pipeline</h3>
 						<p>This project uses AWS S3 and AWS Glue to process layoff data into a structured insights workflow. It surfaces company, industry, country, and time-based trends so workforce events can be explored through a cleaner cloud pipeline instead of one-off analysis.</p>
 						<ul class="meta-list">
@@ -477,110 +530,23 @@ ingest.events(portfolio)</code></pre>
 				</div>
 			</section>
 
-			<section class="section" id="skills">
-				<div class="section-header">
-					<div>
-						<span class="section-kicker">Toolkit</span>
-						<h2>Technical range across data engineering and support engineering.</h2>
+			<section class="proof-band" aria-label="Portfolio focus areas">
+				<div class="proof-grid">
+					<div class="proof-item">
+						<strong>ETL</strong>
+						<span>cleaning, transforming, and loading reliable datasets</span>
 					</div>
-					<p>Comfortable moving between pipeline implementation, analytical modeling, cloud services, production troubleshooting, observability, and communication.</p>
-				</div>
-
-				<div class="skills-layout skills-layout-wide">
-					<div class="skills-panel">
-						<h3>Languages & Scripting</h3>
-						<p>Languages and automation tools I use to clean data, build pipelines, and speed up troubleshooting.</p>
-						<ul class="skill-list">
-							<li>Python</li>
-							<li>SQL</li>
-							<li>Bash</li>
-							<li>Python/Bash Automation</li>
-						</ul>
+					<div class="proof-item">
+						<strong>Support</strong>
+						<span>triaging incidents, isolating root causes, and restoring confidence fast</span>
 					</div>
-					<div class="skills-panel">
-						<h3>Data Engineering</h3>
-						<p>Pipeline, modeling, and warehouse skills for turning raw data into analytics-ready datasets.</p>
-						<ul class="skill-list">
-							<li>ELT/ETL</li>
-							<li>Data Modeling</li>
-							<li>Data Transformation</li>
-							<li>Data Quality</li>
-							<li>Data Warehousing</li>
-							<li>Schema Design</li>
-							<li>Star Schema</li>
-						</ul>
+					<div class="proof-item">
+						<strong>Cloud</strong>
+						<span>AWS labs, S3 workflows, Glue pipelines, Linux systems, and SaaS operations</span>
 					</div>
-					<div class="skills-panel">
-						<h3>Cloud & Platforms</h3>
-						<p>Cloud and platform tools used across projects, monitoring pipelines, and support workflows.</p>
-						<ul class="skill-list">
-							<li>AWS</li>
-							<li>Snowflake</li>
-							<li>SQL Workbench</li>
-							<li>AWS S3</li>
-							<li>Linux</li>
-							<li>CI/CD</li>
-							<li>Docker basics</li>
-						</ul>
-					</div>
-					<div class="skills-panel">
-						<h3>Orchestration & Transformation</h3>
-						<p>Workflow and transformation tooling for repeatable, maintainable data delivery.</p>
-						<ul class="skill-list">
-							<li>dbt</li>
-							<li>Airflow</li>
-							<li>SQL Server</li>
-							<li>MS SQL</li>
-							<li>SAP Queries</li>
-						</ul>
-					</div>
-					<div class="skills-panel">
-						<h3>Analytics & BI</h3>
-						<p>Reporting and dashboard tools for communicating insights clearly to technical and business teams.</p>
-						<ul class="skill-list">
-							<li>Looker</li>
-							<li>Tableau</li>
-							<li>Excel</li>
-							<li>KPI Reporting</li>
-							<li>Executive Dashboards</li>
-						</ul>
-					</div>
-					<div class="skills-panel">
-						<h3>Support, Systems & Collaboration</h3>
-						<p>Production support and collaboration skills from enterprise SaaS, cloud, and customer-facing environments.</p>
-						<ul class="skill-list">
-							<li>TCP/IP</li>
-							<li>DNS</li>
-							<li>HTTP</li>
-							<li>SSH</li>
-							<li>System Logs</li>
-							<li>Incident Triage</li>
-							<li>Root Cause Analysis</li>
-							<li>API Troubleshooting</li>
-							<li>Zendesk</li>
-							<li>Jira</li>
-							<li>HubSpot</li>
-							<li>Salesforce</li>
-							<li>Slack</li>
-						</ul>
-					</div>
-					<div class="skills-panel">
-						<h3>AI & Development Tools</h3>
-						<p>Tools I use to accelerate development, documentation, troubleshooting, and iterative problem-solving.</p>
-						<ul class="skill-list">
-							<li>ChatGPT</li>
-							<li>Codex</li>
-							<li>Cursor</li>
-							<li>VS Code</li>
-							<li>GitHub</li>
-						</ul>
-					</div>
-					<div class="cert-panel">
-						<h3>Certifications</h3>
-						<p>AWS Certified Cloud Practitioner earned. AWS Solution Architect and AWS Data Engineering Associate are in view.</p>
-						<ul class="hero-actions">
-							<li><a class="button" href="certifications.html">View Certifications</a></li>
-						</ul>
+					<div class="proof-item">
+						<strong>BI</strong>
+						<span>dashboards, reporting layers, and operational visibility for decisions</span>
 					</div>
 				</div>
 			</section>
@@ -610,5 +576,105 @@ ingest.events(portfolio)</code></pre>
 		<footer class="site-footer">
 			<p>&copy; Eddie Ekong. Built around data systems, production support, and clearer signals.</p>
 		</footer>
+
+		<script>
+			(function () {
+				var revealed = document.querySelectorAll('.reveal-on-scroll');
+				var navLinks = document.querySelectorAll('.site-nav a[href^="#"]');
+				var sections = Array.prototype.slice.call(document.querySelectorAll('.hero[id], main section[id], .contact[id]'));
+				var lazyFrames = document.querySelectorAll('iframe[data-src]');
+				var rotator = document.querySelector('.hero-rotator');
+				var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+				if (!prefersReducedMotion && 'IntersectionObserver' in window) {
+					var revealObserver = new IntersectionObserver(function (entries, observer) {
+						entries.forEach(function (entry) {
+							if (entry.isIntersecting) {
+								entry.target.classList.add('is-visible');
+								observer.unobserve(entry.target);
+							}
+						});
+					}, { threshold: 0.16, rootMargin: '0px 0px -8% 0px' });
+
+					revealed.forEach(function (node) {
+						revealObserver.observe(node);
+					});
+				} else {
+					revealed.forEach(function (node) {
+						node.classList.add('is-visible');
+					});
+				}
+
+				if ('IntersectionObserver' in window) {
+					var frameObserver = new IntersectionObserver(function (entries, observer) {
+						entries.forEach(function (entry) {
+							if (entry.isIntersecting) {
+								var frame = entry.target;
+								if (!frame.src) {
+									frame.src = frame.dataset.src;
+								}
+								observer.unobserve(frame);
+							}
+						});
+					}, { rootMargin: '220px 0px' });
+
+					lazyFrames.forEach(function (frame) {
+						frameObserver.observe(frame);
+					});
+				} else {
+					lazyFrames.forEach(function (frame) {
+						frame.src = frame.dataset.src;
+					});
+				}
+
+				if ('IntersectionObserver' in window) {
+					var navObserver = new IntersectionObserver(function (entries) {
+						entries.forEach(function (entry) {
+							if (!entry.isIntersecting) {
+								return;
+							}
+
+							navLinks.forEach(function (link) {
+								var active = link.getAttribute('href') === '#' + entry.target.id;
+								link.classList.toggle('is-active', active);
+								if (active) {
+									link.setAttribute('aria-current', 'page');
+								} else {
+									link.removeAttribute('aria-current');
+								}
+							});
+						});
+					}, { threshold: 0.45, rootMargin: '-20% 0px -45% 0px' });
+
+					sections.forEach(function (section) {
+						navObserver.observe(section);
+					});
+				}
+
+				if (rotator) {
+					var terms = [];
+
+					try {
+						terms = JSON.parse(rotator.getAttribute('data-rotate') || '[]');
+					} catch (error) {
+						terms = [];
+					}
+
+					if (!prefersReducedMotion && terms.length > 1) {
+						var index = 0;
+
+						window.setInterval(function () {
+							index = (index + 1) % terms.length;
+							rotator.classList.remove('is-swapping');
+
+							window.requestAnimationFrame(function () {
+								rotator.textContent = terms[index];
+								rotator.classList.add('is-swapping');
+							});
+						}, 2200);
+					}
+				}
+			}());
+		</script>
 	</body>
 </html>
